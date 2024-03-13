@@ -263,3 +263,7 @@ footer {
     border-radius: 10px;
 }
 
+.greeting {
+    color: red;
+    font-size: 50px;
+}
