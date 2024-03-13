@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+}
+
+/*Encabezado + barra de navegación*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3D737F;
+}
+
+header nav ul {
+    display: flex;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    width: 120px;
+    text-align: center;
+    text-justify: auto;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+    /*Iconos*/
+    #mando {
+        color: white;
+        margin: 15px 15px;
+        font-size: 40px;
+    }
+
+    #barra {
+        display: none;
+    }
+
+.menust {
+    display: none;
+}
+
+@media (max-width: 986px) {
+    #barra {
+        color: white;
+        display: flex;
+        margin: 0px 20px;
+    }
+
+    .navegacion {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(133, 144, 148);
+        top: 70px;
+        height: 0;
+        right: 0;
+        width: 300px;
+        overflow: hidden;
+        transition: all .3s;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .navegacion ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    li {
+        width: 300px;
+    }
+
+    .menust:checked + .navegacion {
+        height: 410px;
+    }
+
+    a {
+        color: black;
+        font-size: 20px;
+        font-style: italic;
+    }
+}
+
+
+
+/*Main*/
+.sect1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(152, 155, 155);
+    height: 600px;
+}
+
+.contenedor {    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 0 20px;
+    width: 500px;
+    text-align: justify;
+}
+
+.title {
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 30px;
+}
+
+.pa {
+    font-size: 20p;
+    font-family: cursive;
+}
+
+.img {
+    justify-content: center;
+    margin: 50px 0;
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.im {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/*FORMULARIO*/
+  /* ------------- Formulario ------------- */
+.letritas p,
+.letritas h1{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    width: 100%;
+    padding: 50px 0;
+}
+
+
+
+/* ------------- Campos del Formulario ------------- */
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+  
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    background-color: #eaeaea;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+  
+.form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+}
+
+
+
+
+/*De text tarea*/
+.form-row textarea {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  background-color: #eaeaea;
+  border: 0;
+  border-radius: 6px;
+  min-height: 200px;
+  margin-bottom: 10px;
+  padding: 7px;
+  resize: none;
+  width: 100%;
+}
+  
+/*BOTON*/
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #2f8997;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+  
+.form-row button:hover {
+  background-color: #67c4ce;
+}
+
+.form-row button:active {
+  background-color: #33aaaa;
+}
+
+
+/*Mis cambios*/
+
+
+.textito {
+    margin: 30px 20px;
+    width: 93.7%;
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.letritas {
+    border: solid 2px rgb(131, 185, 207);
+    padding: 50px;
+    border-radius: 10px;
+}
+

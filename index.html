@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7u7</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    
+    <header>
+            <span class="material-symbols-outlined" id="mando">sports_esports</span>
+            
+            <label class="menu1" for="menu">
+                <span class="material-symbols-outlined" id="barra">menu</span>                
+            </label>
+            <input class="menust"  type="checkbox" name="" id="menu">
+
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Hobby</a></li>
+                    <li><a href="">Musica</a></li>
+                    <li><a href="">Acerca de</a></li>
+                </ul>
+            </nav>
+
+    </header>
+
+    <main>
+
+        <section class="sect1">
+
+            <div class="contenedor">
+
+                <div class="text">
+                    <p class="title">Acerca de mí</p>
+                    <p class="pa">¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.</p>
+                    <p class="pa">Me llamo Luis, nací en Perú y vivo en La Molina. Me gusta escuchar música y salir a jugar futbol. Me encantaría aprender a programar para poder facilitar y/o mejorar varias cosas.</p>
+                </div>
+
+                <div class="img">
+                    <img src="nagi.jpg" alt="Nagi">
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    
+    <footer class="formulario">
+        <div class="letritas">
+            <h1>Contacto</h1>
+            <p class="textito"><em>¡Esperamos tu consulta!</em></p>
+            <form action="" method="get" class="form" id="form">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      placeholder="pepe@gmail.com"
+                      required
+                    />
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="form-row">
+                    <button>Enviar</button>
+                </div>
+                <p class="alertas" id="alertas"></p>
+            </form>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
